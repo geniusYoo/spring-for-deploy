@@ -39,6 +39,7 @@ public class BlogController {
         return ResponseEntity.created(URI.create(blogService.create(
                 principalHandler.getUserIdFromPrincipal(), blogCreateRequest))).build();
     }
+    
 
     @PatchMapping("/blog/{blogId}/title")
     public ResponseEntity updateBlogTitle(
