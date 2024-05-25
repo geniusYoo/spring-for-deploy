@@ -41,10 +41,14 @@ jobs:
       shell: bash
         
     - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+      run: 
+        cd ./week2_PA
+        chmod +x gradlew
       
     - name: Build with Gradle # 실제 application build(-x 옵션을 통해 test는 제외)
-      run: ./gradlew build -x test
+      run: 
+        cd ./week2_PA
+        ./gradlew build -x test
       
     - name: Make Directory
       run: mkdir -p deploy
