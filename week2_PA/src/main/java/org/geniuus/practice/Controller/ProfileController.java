@@ -1,4 +1,4 @@
-package org.geniuus.practice;
+package org.geniuus.practice.Controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
