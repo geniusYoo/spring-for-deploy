@@ -60,7 +60,7 @@ jobs:
       run: cp ./week2_PA/appspec.yml ./deploy
 
     - name: Copy script
-      run: cp ./scripts/*.sh ./deploy
+      run: cp ./week2_PA/scripts/*.sh ./deploy
       
     - name: Make zip file
       run: zip -r ./now-sopt.zip ./deploy
