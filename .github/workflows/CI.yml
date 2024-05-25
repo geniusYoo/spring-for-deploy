@@ -23,7 +23,7 @@ jobs:
       run: |
         ## create application.yml
         mkdir ./week2_PA/src/main/resources
-        cd ./src/main/resources
+        cd ./week2_PA/src/main/resources
 
         # application.yml 파일 생성
         touch ./application.yml
