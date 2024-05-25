@@ -1,4 +1,4 @@
-package org.geniuus.practice.Controller;
+package org.geniuus.practice;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class ProfileController {
 
     private final Environment env;
-    
+
     private static final String NULL = "";
 
     @GetMapping("/profile")
